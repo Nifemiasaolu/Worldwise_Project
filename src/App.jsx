@@ -13,7 +13,10 @@ import Form from "./components/Form";
 import City from "./components/City";
 
 function App() {
+  const [cities, setCities] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
   
+
   return (
     <BrowserRouter>
       <Routes>
