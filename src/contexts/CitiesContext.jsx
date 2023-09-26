@@ -1,4 +1,4 @@
-import { createContext, useState } from "react"
+import { createContext, useEffect, useState } from "react"
 
 const CitiesContext = createContext()
 
@@ -32,4 +32,4 @@ function CitiesProvider() {
   )
 }
 
-export default CitiesContext
+export default CitiesProvider 
