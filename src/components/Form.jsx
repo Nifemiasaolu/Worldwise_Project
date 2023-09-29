@@ -79,10 +79,10 @@ function Form() {
        emoji,
       date,
       notes,
-      position: {lat, lng}
+      // position: {lat, lng}
 
     }
-    createCity(newCity);
+    console.log(newCity);
   }
 
   if (isLoadingGeocoding) return <Spinner />;
